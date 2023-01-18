@@ -1,0 +1,208 @@
+/* Navbar */
+
+.navbar-class {
+    position: relative;
+
+    width: 5.563rem;
+    height: 57.188rem;
+    left: 1.938rem;
+    top: 1.5rem;
+
+    background: #FF843F;
+    box-shadow: 0rem 0rem 2.125rem rgba(0, 0, 0, 0.13);
+    border-radius: 0.875rem;
+}
+
+
+
+.navbar-icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navbar-logo {
+    order: 1;
+    align-self: center;
+    margin-top: 38%;
+    margin-bottom: 400%;
+}
+
+.home {
+    order: 2;
+    align-self: center;
+    margin-top: -110%;
+}
+
+
+.stats {
+    order: 3;
+    align-self: center;
+    margin-top: 68%;
+}
+
+.files {
+    order: 4;
+    align-self: center;
+    margin-top: 70%;
+}
+
+.settings {
+    order: 5;
+    align-self: center;
+    margin-top: 299%;
+}
+
+/* Fonts */
+
+h1 {
+position: absolute;
+width: 31.375rem ;
+height: 4.25rem;
+left: 12.438rem;
+top: 4.5rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 2.563rem;
+line-height: 3.875rem;
+
+color: #000000;
+}
+
+.Condition-1 {
+    position: relative;
+    text-align: left;
+    width: 249px;
+    height: 24px;
+    left: 60px;
+    top: 210px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #D10000;
+}
+
+.Condition-2 {
+    position: relative;
+    text-align: left;
+    width: 249px;
+    height: 24px;
+    left: 60px;
+    top: 377px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #009C19;
+}
+
+
+.card-text-1, .card-text-2, .card-text-3 {
+    position: relative;
+    text-align: left;
+    width: 249px;
+    height: 24px;
+    left: 60px;
+    top: -15px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #000000;
+}
+
+.cardy {
+    position: relative;
+    text-align: left;
+    width: 249px;
+    height: 24px;
+    left: 60px;
+    top: 153px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #000000;
+}
+
+
+/* Company Cards */
+
+.card-body{
+    position: absolute;
+    width: 360px;
+    height: 713px;
+    top: 0;
+    left: 0;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-1, .card-2{
+    position: absolute;
+    text-align: center;
+    width: 360px;
+    height: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.13);
+    border-radius: 14px;
+}
+
+.card-1{
+    left: 194px;
+    top: 214px;
+}
+.card-2{
+    left: 594px;
+    top: 214px;
+}
+
+/* Nutshell Logo */
+.chobi {
+    position: relative;
+    top: 76px;
+}
+
+/* Icons */
+i {
+    margin-right: 1.125rem;
+}
+
+
+/* Card frames */
+
+.frame-1, .frame-2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 309px;
+    height: 437px;
+    top: 463px;
+    
+    border: 2px solid #FF843F;
+    filter: drop-shadow(0px 0px 34px rgba(0, 0, 0, 0.13));
+    border-radius: 14px;
+}
+
+.frame-1 {
+    left: 222px;
+}
+.frame-2 {
+    left: 619px;
+}
